@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367143671268",
+    "firebase_url": "https://nabung-yuk-fcd54-default-rtdb.firebaseio.com",
+    "project_id": "nabung-yuk-fcd54",
+    "storage_bucket": "nabung-yuk-fcd54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367143671268:android:42aca0626e1c7198bea3f1",
+        "android_client_info": {
+          "package_name": "com.sunflower.nabung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367143671268-me4tjsuir4u2k9kt2ba31kcujj2rt6v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sunflower.nabung",
+            "certificate_hash": "8beb33f11c3021148cd05e6ca9742cc4ff13620c"
+          }
+        },
+        {
+          "client_id": "367143671268-huatb6c6mcbtjqinjs9a09208bhb9ceh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3OpSEtjH_RVsA0MlsnF18-j1qfrO2I3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367143671268-huatb6c6mcbtjqinjs9a09208bhb9ceh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

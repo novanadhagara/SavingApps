@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.d3ifcool.nabung">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logokoperasi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA6g_Zi6vhCqWVmYs3O9-TJSSASce16WKk" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.sunflower.nabung.EditPengeluaranActivity" />
+        <activity android:name="com.sunflower.nabung.EditPemasukanActivity" />
+        <activity android:name="com.sunflower.nabung.EditWishlistActivity" />
+        <activity
+            android:name="com.sunflower.nabung.AboutAppActivity"
+            android:label="Tentang Aplikasi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sunflower.nabung.MainActivity" />
+        </activity>
+        <activity android:name="com.sunflower.nabung.IntroActivity" />
+        <activity
+            android:name="com.sunflower.nabung.TambahSaldoNabungActivity"
+            android:label="Koperasi"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sunflower.nabung.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sunflower.nabung.TambahPengeluaranActivity"
+            android:label="Tambah Pinjaman"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sunflower.nabung.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sunflower.nabung.TambahPemasukanActivity"
+            android:label="Tambah Simpanan"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sunflower.nabung.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sunflower.nabung.TambahWishlistActivity"
+            android:label="Tambah Angsuran"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sunflower.nabung.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sunflower.nabung.LoginActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sunflower.nabung.RegisterActivity"
+            android:label="Daftar"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sunflower.nabung.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sunflower.nabung.SplashscreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.sunflower.nabung.MainActivity"
+            android:label="@string/title_activity_menu_utama"
+            android:screenOrientation="fullSensor" />
+    </application>
+
+</manifest>
